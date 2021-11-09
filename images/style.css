@@ -1,34 +1,376 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 5;
+  box-sizing: border-box; 
+}
+
 body {
   font-family: 'Poppins';
 }
 
 header > div {
-    padding: 0 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid lightgray;
-  }
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 3px;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 35px;
+  margin-right: 1rem;
+  position: relative;
+  top: 6px;
+}
+
+a:visited { 
+  text-decoration: none; 
+  color: black; 
+  background-color: transparent;
+}
+
+.containerHeader {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: baseline;
+	align-content: center;
+  outline: none;
+  position: relative;
+  top: -15px;
+  bottom: 0px;
+}
+
+
+.npmLogo {
+  width: 100px;
+  height: 44px;
+  position: relative;
+  top: 18px;
+  left: 10px;
+  margin-right: 1.3rem;
+  margin-left: 1.3rem;
+}
+
+form > input {
+  padding: 25px 75px;
+  background: #f2f2f2;
+  font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+  height: 40px;
+  width: 1885px;
+  border: 0px solid #17212e;
+  position: relative;
+  top: 0px;
+  bottom: 8px;
+  text-align:left;
+  outline: none;
+  background-image: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px;
+  background-position-x: 1rem;
+}
+
+form > .botaoprocura {
+  font-family: 'Poppins';
+  font-size: 14px;
+  padding: 13px 28px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  background-color: #FB3B49;
+  color:#FFFFFF;
+  margin-right: 2rem;
+}
+
+.botaocriar {
+  font-family: 'Poppins';
+  font-size: 14px; 
+  font-weight: 500;
+  padding: 13px 28px;
+  color:black;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+  margin-right: 2rem;
+}
+
+.section1 {
+  height: 700px;
+  background-color: rgba(232,217,217,.3) ;
+  position: relative;
+  top: -3.9rem;
   
-  nav {
-    width: 600px;
-  }
+}
+
+
+section > h1 {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+  font-size: 650%;
+}
+
+.article1 {
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  position: relative;
+  top: -3rem;
+}
+
+.planos {
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-size: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  position: relative;
+  top: -3rem;
+  left: 45rem;
+}
+
+.planos > button {
+  font-family: 'Poppins';
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  background-color: #FB3B49;
+  color:#FFFFFF;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  width: 255px;
+  height: 75px;
+  position: relative;
+  right: -1rem;
+  top: 0.9rem;
+}
+
+.join {
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-size: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 255px;
+  height: 75px;
+  position: relative;
+  top: -6.5rem;
+  left: 69rem;
+}
+
+.section2 {
+  height: 980px;
   
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+}
+
+.hexagono {
+  width: 450px;
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 3rem;
+}
+
+.heading2 {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	margin-left: auto;
+  margin-right: auto;
+  font-size: 250%;
+  position: relative;
+  padding-top: 15px;
+  width: 1480px;
+  height: 70px;
+  top: 10rem;
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+}
+
+.article2 {
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-size: 26px;
+  padding: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 52em;
+  position: relative;
+  top: 10.5rem;
+}
   
-  nav a {
-    text-decoration: none;
-    color: black;
-  }
+.container{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
   
-  .blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-  }
+}
+
+.child {
+  width: 400px;
+  height: 450px;
+  background-color: white; 
+  border:1px transparent black;
+  font-size: 20px;
+  padding: 2em;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.headingcontainer {
+  color: red;
+  font-weight: bold;
+  position: relative;
+  top: -1px;
+  height: 155px;
+  margin: 0;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+}
+
+.child > span {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+  position: relative;
+  top: -25px;
+}
+
+
+
+.containerimg{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+
+.childimg > img {
+  display: flex;
+  width: 100%;
+  background-color: white; 
+  border:1px transparent black;
+}
+
+#primeira {
+  display:flex;
+  position: absolute;
+  margin-left: -49.3em;
+  bottom: -42em;
+
+}
+
+#segunda {
+  display:flex;
+  position: absolute;
+  margin-left: -23.2em;
+  bottom: -42em;
+}
+
+#terceira {
+  display:flex;
+  position: absolute;
+  margin-left: 3.1em;
+  bottom: -42em;
+}
+
+#quarta {
+  display:flex;
+  position: absolute;
+  margin-left: 29.3em;
+  bottom: -42em;
+}
+
+.botaoft {
+  display: flex; 
+  justify-content: center;
+  text-align: center;
+  font-size: 27px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+  position: relative;
+  top: -3rem;
+}
+
+.botaoft > button {
+  font-family: 'Poppins';
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  background-color: black;
+  color:#FFFFFF;
+  box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  width: 855px;
+  height: 75px;
+  position: relative;
+  right: -1rem;
+  top: 0.9rem;
+}
+
+
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+
+
+
+
+align-items: baseline;
+	align-content: stretch;
+  position: relative;
+  
+  width: 1500px;
+  height: 5px;
+  padding: 2em;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: white; 
+  border:1px solid black;
