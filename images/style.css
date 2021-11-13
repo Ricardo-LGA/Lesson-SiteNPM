@@ -304,7 +304,7 @@ section > h1 {
   position: absolute;
   margin-left: -49.3em;
   bottom: -42em;
-
+  top: 121.5em;
 }
 
 #segunda {
@@ -312,6 +312,7 @@ section > h1 {
   position: absolute;
   margin-left: -23.2em;
   bottom: -42em;
+  top: 121.5em;
 }
 
 #terceira {
@@ -319,6 +320,7 @@ section > h1 {
   position: absolute;
   margin-left: 3.1em;
   bottom: -42em;
+  top: 121.5em;
 }
 
 #quarta {
@@ -326,6 +328,7 @@ section > h1 {
   position: absolute;
   margin-left: 29.3em;
   bottom: -42em;
+  top: 121.5em;
 }
 
 .botaoft {

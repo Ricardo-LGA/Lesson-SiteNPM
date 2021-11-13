@@ -1,0 +1,68 @@
+.logo {
+  width: 64px;
+  height: 17px;
+  margin-right: 1rem;
+}
+
+.containerHeader {
+  display: flex;
+  justify-content: wrap;
+}
+
+.containerHeader .npmLogo {
+  width: 70px;
+  height: 22px;
+  position: relative;
+  top: 15px;
+  left: 10px;
+  margin-right: 1rem;
+  
+}
+
+.containerHeader .lupaLogo {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 5px;
+  margin-right: 1rem;
+}
+
+.botaoprocura {
+  font-family: 'Poppins';
+  font-size: 14px;
+  padding: 13px 28px;
+  letter-spacing: 0.3px;
+  font-weight: bold;
+  background-color: #231f20;
+  color:#FFFFFF;
+}
+
+.botaoLogin {
+  font-family: 'Poppins';
+  font-size: 14px; 
+  font-weight: 500;
+  padding: 13px 28px;
+  color:black;
+  border: 1px solid #cccccc;
+  background-color: transparent;
+}
+
+ .barradepesquisa {
+  padding: 25px 75px;
+  background: #f2f2f2;
+  font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+  height: 40px;
+  width: 500px;
+  border: 0px solid #17212e;
+  position: relative;
+  top: 0px;
+  bottom: 8px;
+  text-align:left;
+  outline: none;
+ }
+
+ a:visited { 
+  text-decoration: none; 
+  color: black; 
+  background-color: transparent;
+ }
